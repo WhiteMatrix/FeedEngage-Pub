@@ -1,0 +1,17 @@
+name = "feedengage"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./public",entry-point = "workers-site"}
+
+kv_namespaces = [{ binding = "postsStore", id = "", preview_id = "" }]
+compatibility_date = "2021-10-22"
+
+[vars]
+
+[secrets]
+#API_MANAGE_KEY
+
